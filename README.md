@@ -1,5 +1,7 @@
 ## 说明
 
+![](4.Docs/2.Images/peak.jpg)
+
 > 本项目是一个超迷你的智能小终端，集成LVGL图像框架、MVC框架、消息框架、WiFi蓝牙能力，未来会加入触摸屏支持。可以作为智能控制器用于实现很多应用。
 
 非常感谢 https://github.com/FASTSHIFT 开源的X-Track项目，本文是对于X-Track硬件和固件往ESP32平台移植的记录说明。
