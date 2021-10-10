@@ -10,7 +10,7 @@ set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_C_COMPILER_WORKS 1)
 set(CMAKE_CXX_COMPILER_WORKS 1)
 
-project("littleVisual-ESP32-fw" C CXX)
+project("Peak-ESP32-fw" C CXX)
 
 include(CMakeListsPrivate.txt)
 
