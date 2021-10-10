@@ -1,6 +1,6 @@
 ## 说明
 
-![](4.Docs/2.Images/peak.jpg)
+![](5.Docs/2.Images/peak.jpg)
 
 > 本项目是一个超迷你的智能小终端，集成LVGL图像框架、MVC框架、消息框架、WiFi蓝牙能力，未来会加入触摸屏支持。可以作为智能控制器用于实现很多应用。
 >
@@ -39,7 +39,7 @@
 
 原工程的架构分层设计比较合理，整体软件架构如下图所示，系统由 HAL、Framework 和 APP 三层组成 ：
 
-![](/4.Docs/2.Images/framework.png)
+![](/5.Docs/2.Images/framework.png)
 
 ### LVGL 和页面调度
 
@@ -49,7 +49,7 @@ X-TRACK 使用 LVGL 作为图形库，提供用户显示界面，并使用了许
 
 页面调度器参考 **IOS ViewController** 进行设计，页面生命周期管理流程图如下：
 
-![](4.Docs/2.Images/pagemanager.png)
+![](5.Docs/2.Images/pagemanager.png)
 
 根据页面当前状态，对页面动作进行管理。例如地图页面的加载，在执行 onViewLoad (页面开始加载)时初始化视图和数据；在 onViewDidAppear（页面即将显示） 执行过渡动画，在动画结束时显示地图容器。
 
@@ -63,7 +63,7 @@ X-TRACK 使用 LVGL 作为图形库，提供用户显示界面，并使用了许
 
 比如下图为 GPS 数据事件回调函数:
 
-![](4.Docs/2.Images/onenvent.png)
+![](5.Docs/2.Images/onenvent.png)
 
 ### 屏幕移植
 
@@ -104,7 +104,7 @@ X-TRACK 使用 LVGL 作为图形库，提供用户显示界面，并使用了许
 >
 > IOMUX指的是不使用IO-Matrix的映射功能，而是使用默认的MISO、MOSI、CLK引脚，也就是如下图：
 >
-> ![](4.Docs/2.Images/iomux.png)
+> ![](5.Docs/2.Images/iomux.png)
 
 屏幕驱动验证完成后，配置LVGL的相关初始化函数，其中`lv_conf.h`的配置有几点值得注意的：
 
