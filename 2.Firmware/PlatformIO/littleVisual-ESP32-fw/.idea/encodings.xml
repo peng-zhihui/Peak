@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/HAL/CommonMacro.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/HAL/HAL_Backlight.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/HAL/HAL_Power.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HAL/_Template/CommonMacro.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/HAL/_Template/HAL_AHRS.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HAL/_Template/HAL_Backlight.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Port/Display.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Port/lv_port/lv_port_disp.cpp" charset="GBK" />
+  </component>
+</project>
