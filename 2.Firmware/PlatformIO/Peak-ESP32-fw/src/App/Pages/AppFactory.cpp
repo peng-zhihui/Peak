@@ -24,7 +24,6 @@
 #include "_Template/Template.h"
 #include "SystemInfos/SystemInfos.h"
 #include "StartUp/StartUp.h"
-#include "Scene3D/Scene3D.h"
 
 #define APP_CLASS_MATCH(className)\
 do{\
@@ -39,7 +38,6 @@ PageBase* AppFactory::CreatePage(const char* name)
     APP_CLASS_MATCH(Template);
     APP_CLASS_MATCH(SystemInfos);
     APP_CLASS_MATCH(Startup);
-    APP_CLASS_MATCH(Scene3D);
 
     return nullptr;
 }
