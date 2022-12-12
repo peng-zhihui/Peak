@@ -6,7 +6,7 @@
 #include "HAL_Def.h"
 #include "App/Configs/Config.h"
 #include "CommonMacro.h"
-#include "FreeRTOS/FreeRTOS.h"
+#include "FreeRTOS.h"
 
 namespace HAL
 {
